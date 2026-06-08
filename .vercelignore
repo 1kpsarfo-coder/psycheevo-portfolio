@@ -7,6 +7,5 @@ references
 assets
 *.bak
 drizzle
-patches
 data
 server
