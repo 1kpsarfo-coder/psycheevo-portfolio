@@ -2,6 +2,7 @@ import TopNav from "@/components/TopNav";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
+import { PageFade, FadeUp } from "@/components/Animate";
 
 const SERVICES = [
   {
@@ -120,26 +121,32 @@ const SERVICES = [
 
 export default function Services() {
   return (
-    <div className="min-h-screen bg-background">
+    <PageFade className="min-h-screen bg-background">
       <TopNav />
 
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
         <div className="container relative py-20 md:py-32">
-          <div className="max-w-2xl animate-fade-in">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 mb-6">
-              <span className="text-xs font-semibold text-primary tracking-widest uppercase">Services</span>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4 leading-tight">
-              Every service.
-              <br />
-              <span className="text-primary">One standard.</span>
-            </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              From a single logo to a full creative partnership — built to the same
-              uncompromising standard every time.
-            </p>
+          <div className="max-w-2xl">
+            <FadeUp>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 mb-6">
+                <span className="text-xs font-semibold text-primary tracking-widest uppercase">Services</span>
+              </div>
+            </FadeUp>
+            <FadeUp delay={0.08}>
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4 leading-tight">
+                Every service.
+                <br />
+                <span className="text-primary">One standard.</span>
+              </h1>
+            </FadeUp>
+            <FadeUp delay={0.16}>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                From a single logo to a full creative partnership — built to the same
+                uncompromising standard every time.
+              </p>
+            </FadeUp>
           </div>
         </div>
       </section>
@@ -206,13 +213,13 @@ export default function Services() {
               <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
                 {isEven ? (
                   <>
-                    <ContentBlock />
-                    <InfoBlock />
+                    <FadeUp><ContentBlock /></FadeUp>
+                    <FadeUp delay={0.1}><InfoBlock /></FadeUp>
                   </>
                 ) : (
                   <>
-                    <InfoBlock />
-                    <ContentBlock />
+                    <FadeUp><InfoBlock /></FadeUp>
+                    <FadeUp delay={0.1}><ContentBlock /></FadeUp>
                   </>
                 )}
               </div>
@@ -224,27 +231,29 @@ export default function Services() {
       {/* CTA */}
       <section className="py-24 border-t border-border bg-gradient-to-br from-primary/5 to-accent/5">
         <div className="container max-w-3xl mx-auto text-center">
-          <p className="text-xs font-bold text-primary tracking-widest uppercase mb-4">Ready to build?</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-            Let's make something
-            <br />
-            <span className="text-primary">that matters.</span>
-          </h2>
-          <p className="text-lg text-muted-foreground mb-10">
-            Whether it's a logo, a campaign, or your entire brand — every
-            great project starts with one conversation.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" asChild>
-              <Link href="/contact">
-                Start a Project
-                <ArrowRight className="ml-2" size={20} />
-              </Link>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link href="/pricing">View Pricing</Link>
-            </Button>
-          </div>
+          <FadeUp>
+            <p className="text-xs font-bold text-primary tracking-widest uppercase mb-4">Ready to build?</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+              Let's make something
+              <br />
+              <span className="text-primary">that matters.</span>
+            </h2>
+            <p className="text-lg text-muted-foreground mb-10">
+              Whether it's a logo, a campaign, or your entire brand — every
+              great project starts with one conversation.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" asChild>
+                <Link href="/contact">
+                  Start a Project
+                  <ArrowRight className="ml-2" size={20} />
+                </Link>
+              </Button>
+              <Button size="lg" variant="outline" asChild>
+                <Link href="/pricing">View Pricing</Link>
+              </Button>
+            </div>
+          </FadeUp>
         </div>
       </section>
 
@@ -259,13 +268,4 @@ export default function Services() {
               © 2025 psycheevo. · Prince Kofi Sarfo · Accra, Ghana
             </p>
             <div className="flex gap-6">
-              <Link href="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">Services</Link>
-              <Link href="/portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">Portfolio</Link>
-              <Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">Contact</Link>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
+              <Link href="/services" className="text-sm text-muted-foreground hover
