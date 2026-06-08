@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "badge": "Creative Director · Accra, Ghana",
+    "headline": "Design That Thinks.",
+    "headlineAccent": "Brands That Lead.",
+    "subheadline": "I'm Prince Kofi Sarfo — a Biomedical Engineer turned Creative Director, building brands that don't just look good. They think. They convert. They evolve.",
+    "ctaPrimary": "View My Work",
+    "ctaSecondary": "Start a Project"
+  },
+  "stats": [
+    { "val": "100+", "label": "Projects Completed" },
+    { "val": "50+", "label": "Clients Served" },
+    { "val": "5+", "label": "Years Experience" },
+    { "val": "3", "label": "Countries Reached" }
+  ],
+  "services": [
+    {
+      "id": "brand-identity",
+      "icon": "Pen",
+      "title": "Brand Identity",
+      "description": "From your brand's first logo to a full campaign — precision meets purpose. I build identities that work across every touchpoint.",
+      "body": "From naming and positioning to visual identity systems, I create brands built to last. Each identity is grounded in strategy and crafted with precision."
+    },
+    {
+      "id": "print-packaging",
+      "icon": "FileText",
+      "title": "Print & Packaging",
+      "description": "Labels, packaging, merchandise, and print collateral designed with the care of a surgeon and the eye of an artist.",
+      "body": "From pharmaceutical labels to luxury packaging, I design print work that communicates quality at a glance. Every millimetre is deliberate."
+    },
+    {
+      "id": "social-media",
+      "icon": "Zap",
+      "title": "Social Media Design",
+      "description": "Content that stops the scroll. Campaign visuals, ads, and digital assets built for engagement and brand consistency.",
+      "body": "I design social content that builds brand equity with every post — cohesive, purposeful, and impossible to ignore."
+    },
+    {
+      "id": "motion",
+      "icon": "Play",
+      "title": "Motion & Video",
+      "description": "Brand motion that brings your identity alive — animated logos, explainer content, and visual storytelling.",
+      "body": "From animated brand marks to full explainer videos, I add dimension to your identity through motion that feels intentional."
+    },
+    {
+      "id": "web-design",
+      "icon": "Globe",
+      "title": "Web & Digital Design",
+      "description": "Clean, purposeful digital experiences. UI design and web visuals that convert visitors into clients.",
+      "body": "I design digital experiences that reflect your brand's full potential — structured, conversion-focused, and visually compelling."
+    },
+    {
+      "id": "strategy",
+      "icon": "RefreshCw",
+      "title": "Brand Strategy",
+      "description": "Repositioning. Refreshing. Rebuilding. Strategic guidance for brands ready to evolve with intention.",
+      "body": "Whether you're launching or repositioning, I help you define what you stand for and build the visual language to say it."
+    }
+  ],
+  "about": {
+    "headline": "The mind behind psycheevo.",
+    "body": "I'm Prince Kofi Sarfo — a Biomedical Engineer turned Creative Director. Where analytical rigour meets bold creative vision lives psycheevo. — where analytical precision meets bold creative instinct. I don't just design for aesthetics. I design for outcomes.",
+    "quote": "Design without strategy is decoration. Strategy without design is invisible.",
+    "name": "Prince Kofi Sarfo",
+    "role": "Founder, psycheevo.",
+    "location": "Accra, Ghana",
+    "email": "psycheevodesign@gmail.com",
+    "whatsapp": "+233552587956"
+  },
+  "pricing": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "price": "GHS 500",
+      "description": "For early-stage businesses that need a clean, professional starting point.",
+      "features": ["Logo design (2 concepts)", "Brand colour palette", "Typography selection", "Basic brand guide (PDF)", "2 revision rounds"],
+      "cta": "Get Started",
+      "highlighted": false
+    },
+    {
+      "id": "brand",
+      "name": "Full Brand",
+      "price": "GHS 1,500",
+      "description": "Complete brand identity system for businesses ready to show up professionally.",
+      "features": ["Logo suite (primary + variations)", "Full brand style guide", "Business card design", "Social media templates (5)", "Letterhead & email signature", "3 revision rounds"],
+      "cta": "Most Popular",
+      "highlighted": true
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "price": "GHS 3,500+",
+      "description": "End-to-end brand build for established businesses or ambitious launches.",
+      "features": ["Everything in Full Brand", "Packaging design", "Brand photography direction", "Social media kit (15 templates)", "Website UI design", "Brand strategy session", "Unlimited revisions"],
+      "cta": "Let's Talk",
+      "highlighted": false
+    }
+  ],
+  "contact": {
+    "headline": "Let's build something great.",
+    "subheadline": "I work with founders, businesses, and organisations ready to build brands that lead. Tell me about your project.",
+    "email": "psycheevodesign@gmail.com",
+    "whatsapp": "+233552587956",
+    "location": "Accra, Ghana",
+    "availability": "Currently available for new projects"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+dist
+.manus-logs
+manus-repo
+portfolio-images
+references
+assets
+*.bak
+drizzle
+patches
+data
+server

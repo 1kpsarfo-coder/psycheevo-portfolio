@@ -1,0 +1,134 @@
+[
+  {
+    "id": "just-sip",
+    "title": "Just Sip",
+    "category": "Branding",
+    "description": "Full brand identity for Just Sip — a healthy juice and beverage brand targeting health-conscious consumers. Covers logo design, cup packaging, brand colour system, and marketing collateral. The identity balances organic warmth with playful energy.",
+    "tags": ["Logo Design", "Packaging", "Brand Identity", "Print"],
+    "images": ["/portfolio/just-sip-1.jpg", "/portfolio/just-sip-2.jpg", "/portfolio/just-sip-3.jpg", "/portfolio/just-sip-4.jpg"],
+    "year": "2025",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "kampus-crave",
+    "title": "Kampus Crave",
+    "category": "Branding",
+    "description": "Brand identity and packaging design for Kampus Crave, a campus food delivery brand. The design captures the youthful, energetic spirit of student culture — bold colours, playful typography, and a memorable mark that works on packaging, digital, and outdoor formats.",
+    "tags": ["Logo Design", "Brand Identity", "Packaging", "Social Media"],
+    "images": ["/portfolio/kampus-crave-1.jpg", "/portfolio/kampus-crave-2.jpg", "/portfolio/kampus-crave-3.jpg"],
+    "year": "2025",
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "birak",
+    "title": "BIRAK Group",
+    "category": "Branding",
+    "description": "Comprehensive brand system for BIRAK Group — a multi-vertical conglomerate spanning civic care, merchandise, and corporate services. Deliverables include logo suite, business card system, apparel branding, and architectural signage.",
+    "tags": ["Corporate Identity", "Logo Design", "Stationery", "Apparel"],
+    "images": ["/portfolio/birak-1.jpg", "/portfolio/birak-2.jpg", "/portfolio/birak-3.jpg", "/portfolio/birak-4.jpg"],
+    "year": "2025",
+    "featured": true,
+    "order": 3
+  },
+  {
+    "id": "maxduray",
+    "title": "Maxduray",
+    "category": "Branding",
+    "description": "Brand identity for Maxduray Decor & Construction — a premium construction and interior decor company. The identity system balances industrial strength with refined elegance, applied across logo, uniforms, hard hats, and architectural presentations.",
+    "tags": ["Corporate Identity", "Logo Design", "Uniform Branding"],
+    "images": ["/portfolio/maxduray-1.jpg", "/portfolio/maxduray-2.jpg"],
+    "year": "2024",
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": "nyarko-homes",
+    "title": "Nyarko Homes",
+    "category": "Branding",
+    "description": "Premium business card and corporate identity for Nyarko Homes Ltd — a luxury real estate developer. The design communicates timeless sophistication through a refined monogram, gold accents, and precision typography.",
+    "tags": ["Corporate Identity", "Stationery", "Luxury Branding"],
+    "images": ["/portfolio/nyarko-homes-1.png"],
+    "year": "2026",
+    "featured": false,
+    "order": 5
+  },
+  {
+    "id": "djakas-coconut",
+    "title": "Djaka's Coconut",
+    "category": "Branding",
+    "description": "Logo and brand mark design for Djaka's Coconut — a fresh coconut events and catering brand. The identity blends tropical warmth with a clean, modern aesthetic suitable for weddings, corporate events, and outdoorings.",
+    "tags": ["Logo Design", "Brand Identity", "Events"],
+    "images": ["/portfolio/djakas-coconut-1.png"],
+    "year": "2025",
+    "featured": false,
+    "order": 6
+  },
+  {
+    "id": "zentaprost",
+    "title": "Zentaprost",
+    "category": "Print",
+    "description": "Pharmaceutical packaging and label design for Zentaprost — an evidence-based prostate health supplement. The design communicates clinical credibility while remaining approachable, using clean layouts, medical-grade typography, and trust-building visual hierarchy.",
+    "tags": ["Pharmaceutical", "Packaging", "Label Design"],
+    "images": ["/portfolio/zentaprost-1.jpg"],
+    "year": "2025",
+    "featured": true,
+    "order": 7
+  },
+  {
+    "id": "premium-mashke",
+    "title": "Premium Mashke",
+    "category": "Print",
+    "description": "Packaging and brand collateral for Premium Mashke — a coconut kenkey smoothie brand. Deliverables include paper bag design, bottle label, and brand identity elements that position the product as a premium, locally-rooted FMCG offering.",
+    "tags": ["Packaging", "Label Design", "FMCG"],
+    "images": ["/portfolio/premium-mashke-1.jpg"],
+    "year": "2025",
+    "featured": false,
+    "order": 8
+  },
+  {
+    "id": "safkan",
+    "title": "Safkan Herbal Tea",
+    "category": "Print",
+    "description": "Label and pouch packaging design for Safkan — a herbal tea brand. The design draws on natural textures and earthy tones to communicate purity and wellness, applied across the primary label, stand-up pouch, and secondary packaging.",
+    "tags": ["Packaging", "Label Design", "Health & Wellness"],
+    "images": ["/portfolio/safkan-1.png", "/portfolio/safkan-2.jpg"],
+    "year": "2025",
+    "featured": false,
+    "order": 9
+  },
+  {
+    "id": "akuafo",
+    "title": "Akuafo Hall 70th",
+    "category": "Print",
+    "description": "Anniversary merchandise and print design for Akuafo Hall's 70th Anniversary at the University of Ghana. Deliverables include a silk scarf with custom pattern, commemorative mug, and event launch collateral — all built around a unified anniversary mark.",
+    "tags": ["Event Branding", "Merchandise", "Print", "Pattern Design"],
+    "images": ["/portfolio/akuafo-1.jpg", "/portfolio/akuafo-2.jpg", "/portfolio/akuafo-3.jpg"],
+    "year": "2025",
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "kfcs",
+    "title": "KFCS Restaurant",
+    "category": "Social Media",
+    "description": "Ongoing social media content design for KFCS — a fast food restaurant brand. Covers festive campaign ads, promotional flyers, holiday posts, and daily content designed for maximum engagement across Facebook and Instagram.",
+    "tags": ["Social Media", "Content Design", "Advertising"],
+    "images": ["/portfolio/kfcs-1.jpg", "/portfolio/kfcs-2.jpg", "/portfolio/kfcs-3.jpg", "/portfolio/kfcs-4.png"],
+    "year": "2025",
+    "featured": false,
+    "order": 11
+  },
+  {
+    "id": "speedpoint",
+    "title": "Speedpoint",
+    "category": "Social Media",
+    "description": "Social media content design for Speedpoint — promotional flyers and seasonal campaign graphics designed to drive foot traffic and digital engagement. Clean, bold layouts with strong call-to-action hierarchy.",
+    "tags": ["Social Media", "Flyer Design", "Advertising"],
+    "images": ["/portfolio/speedpoint-1.jpg", "/portfolio/speedpoint-2.jpg"],
+    "year": "2025",
+    "featured": false,
+    "order": 12
+  }
+]

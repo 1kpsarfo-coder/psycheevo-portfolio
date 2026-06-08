@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "npx vite build",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
